@@ -1,0 +1,21 @@
+<h1>Details</h1>
+
+<table>
+  <tr>
+    <th>Asso_ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Contact</th>
+    <th>Role</th>
+  </tr>
+ 
+  <% @p.each do |pa| %>
+    <tr>
+       <td><%= pa.Asso_ID %></td>
+      <td><%= pa.Name %></td>
+      <td><%= pa.Email %></td>
+      <td><%= pa.Contact %></td>
+      <td><%= pa.Role %></td>     
+    </tr>
+  <% end %>
+</table>

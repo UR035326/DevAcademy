@@ -1,0 +1,21 @@
+<h1>Batches</h1>
+
+<table>
+  <tr>
+    <th>Batch_ID</th>
+    <th>Batch_Name</th>
+    <th>Start_Date</th>
+    <th>End_Date</th>
+    <th>Status</th>
+  </tr>
+ 
+  <% @p.each do |pa| %>
+    <tr>
+       <td><%= pa.Batch_ID %></td>
+      <td><%= pa.Batch_Name %></td>
+      <td><%= pa.Start_Date %></td>
+      <td><%= pa.End_Date %></td>
+      <td><%= pa.Status %></td>     
+    </tr>
+  <% end %>
+</table>
