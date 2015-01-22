@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20150122052903) do
 
   create_table "Batches", force: :cascade do |t|
     t.string   "Batch_ID"
-    t.text     "Batch_Name"
+    t.string   "Batch_Name"
     t.string   "Start_Date"
     t.string   "End_Date"
     t.string   "Status"

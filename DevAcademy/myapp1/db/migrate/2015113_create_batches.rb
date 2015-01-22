@@ -3,7 +3,7 @@ class CreateBatches < ActiveRecord::Migration
 
     create_table :Batches do |t|
       t.string :Batch_ID
-      t.text :Batch_Name
+      t.string :Batch_Name
       t.string :Start_Date
      t.string :End_Date
      t.string :Status
